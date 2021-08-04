@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+<!--
+	Astral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>The Internet</title>
+		
+	
+	<style>
+		* {
+		 font-family:"Courier";
+		  box-sizing: border-box;
+		  
+		}
+		
+		h2 {
+			font-size:20px;
+			font-weight: bold;
+			text-align: left;
+		}
+
+		/* Create two equal columns that floats next to each other */
+		.column1 {
+		  float: left;
+		  width: 15%;
+		  padding: 10px;
+		  height:  100%; 
+		}
+
+		.column2 {
+		  float: left;
+		  width: 80%;
+		  padding: 2%;
+		  height: 100%; 
+		}
+		
+		/* Clear floats after the columns */
+		.row:after {
+		  content: "";
+		  display: table;
+		  clear: both;
+		}
+		</style>
+		<head>
+			<div class="row">
+				<div class="column1"  style=" width: 7%;" > 
+				<img src="assets/Headshot.jpg" alt="Cody Kinzett the professional" width="80" height="80" style="vertical-align=:sub;">
+			</div>
+			<div class="column2"  > 
+				<h2 >Cody Kinzett</h2>
+			</div>
+		</head>
+		<body>
+		
+		<div class="row">
+		  <div class="column1"  style="border-right:1px solid black"> 
+		<!-- style="background-color:#aaa;"> 
+			<h2 >Going Places</h2>-->
+			<a href="#" style="text-decoration: none">Home</a>
+				<br>
+			<a href="https://www.linkedin.com/in/cody-kinzett-487a1466/" style="text-decoration: none">Resume</a>
+			<br>
+			<a href="portfolio.html" style="text-decoration: none">Portfolio</a>
+			<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+		  </div>
+		  <div class="column2" > 
+		<!-- style="background-color:#bbb;"> --> 
+			<h2 >Welcome to my webhome</h2>
+			<p>I believe keeping things simple makes them beautiful, this is true for computers </p>
+			<p>that turn 0's and 1's into what you're now reading.</p>
+			<p>	For this reason this website is written in HTML and CSS, simple.</p>
+			<br>
+			<p>	Please explore my portfolio of achievements to understand my work.</p>
+			<br>
+			<p> Alternatively, explore my digital resume, which contains my skills, education and work experience.</p>
+		  </div>
+		</div>
+		
+	</body>
+</html>
